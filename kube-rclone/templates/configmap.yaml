@@ -9,4 +9,3 @@ data:
   {{ $key }}: |-
 {{ $val | indent 4}}
 {{- end }}
-{{- end -}}
