@@ -12,7 +12,7 @@ This can be created by running `rclone config` which will take you through an in
 ## Setup
 The setup guide will help you get rclone running as a Daemonset on Kubernetes.
 
-1. Add the contents of the `rclone.conf` file into `files/rclone.conf`
+1. Add the contents of the `rclone.conf` into the values of the helm chart
 2. Deploy the kube-rclone chart with the correct remote and path defined from the `rclone.conf` file
 
 ```bash
